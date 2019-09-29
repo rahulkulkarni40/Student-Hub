@@ -12,6 +12,13 @@ AS per current education system student are not able to learn more concepts of p
 
 ### Pre installed:
  XAMPP Server
+ ## Step 1: Download and Install XAMPP
+ To download and install XAMPP, [go to apachefriends downloads page](https://www.apachefriends.org/download.html), the official link to download XAMPP from. You will see XAMPP ready to download for cross-platform like Windows, Linux, Mac OS X. Since we are discussing How to install XAMPP on Windows 10, therefore, we will choose the Windows option as shown below.
+ 
+ ## Step 2: Run the Installer to Install XAMPP
+ XAMPP Setup Wizard
+During the installation process, you may come across warning pop-ups. But you would probably click ‘Yes’ to start the installation process. Soon after you click on the downloaded file, the XAMPP setup wizard will open. Now click on the ‘Next’ Button to proceed.
+
  
 
 ### Modules:
