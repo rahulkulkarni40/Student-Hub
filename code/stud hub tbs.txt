@@ -1,0 +1,7 @@
+While Adding Qsns: Not generating Auto id
+
+Table with rows & cols
+Qid
+Qsn
+
+On View Click Update

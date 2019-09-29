@@ -1,4 +1,5 @@
 <?php
+
 $con=mysqli_connect("localhost","root","","student_hub");
 
 if(mysqli_connect_errno())
@@ -6,14 +7,14 @@ if(mysqli_connect_errno())
 echo"failed";
 mysqli_connect_error();
 }
-
+session_start();
 $passs1 = $_POST['password'];
 $passs2 = $_POST['password1'];
 
 
 if($passs1==$passs2 )
 {
-	$sql="insert into student(Fullname,Fathers_Name,Regno,Branch,Semester,Address,Contact,Email,Password,Lastname)values('".$_POST['fn']."','".$_POST['fan']."','".$_POST['rn']."','".$_POST['dep']."','".$_POST['sem']."','".$_POST['add']."','".$_POST['ph']."','".$_POST['email']."','".$_POST['password']."','".$_POST['ln']."')";
+	$sql="insert into faculty(Faculty_Name,Faculty_Id,Department,Contact,Email,Password,Lastname)values('".$_POST['fn']."','".$_POST['fid']."','".$_POST['dep']."','".$_POST['ph']."','".$_POST['email']."','".$_POST['password']."','".$_POST['ln']."')";
 	if(!mysqli_query($con,$sql))
 	{
 		echo "error".mysqli_error($con);
