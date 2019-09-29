@@ -53,6 +53,7 @@ faculty. Here the student name will not be displayed
 one id number will be given to each question. The
 questions are sent to the specified subject faculty only no
 other faculty can answer it.
+![Image of Question Page](Images/anslist.png)
 5. Faculty feedback:-
 Here students give feedback of a particular faculty for eg.
 Is he/she regular to class, he/she teaches good or not
