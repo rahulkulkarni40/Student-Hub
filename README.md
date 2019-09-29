@@ -41,6 +41,7 @@ If the entire process of XAMPP installation went correctly, then the control pan
 1. Login:-
 It is the login session for the administrator student
 and exit.
+
 2. Student details:-
 It is used to view student details from database.
 3. Question Bank:-
@@ -57,3 +58,8 @@ Here students give feedback of a particular faculty for eg.
 Is he/she regular to class, he/she teaches good or not
 etc.
 6. Additional features like calendar, events, IT fests, etc….
+
+## Author
+* **Rahul Kulkarni  ** - **Complete Project ** [Rahul Kulkarni] (https://github.com/rahulkulkarni40)
+
+
