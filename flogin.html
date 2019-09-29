@@ -1,0 +1,34 @@
+<?php
+session_start();
+//Store data into session
+$_SESSION['user']=$_POST['use'];
+?><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Faculty login</title>
+</head>
+<body style="background-color:#EBEBEB" background="images/img19.jpg"  >
+
+<br><br><br><br><br><br><br>
+
+<!-- Start Formoid form-->
+<link  rel="stylesheet" href="login_files/formoid1/formoid-default.css" type="text/css" />
+<script type="text/javascript" src="login_files/formoid1/jquery.min.js"></script>
+<form action="flogin.php" class="formoid-default" style="background-color:#00BFFF;font-size:14px;font-family:'Open Sans','Helvetica Neue','Helvetica',Arial,Verdana,sans-serif;color:#ffffff;width:480px" title="My Formoid form" method="post">
+	<div class="element-text" ><h2 class="title">Login</h2></div>
+	<div class="element-input" required ><label class="title">Username</label><input type="text" name="use" required /></div>
+	<div class="element-password" ><label class="title">Password</label><input type="password" name="password" value="" required/></div>
+	<div class="element-submit" ><input type="submit" value="Submit"/><input type="reset" value="reset"/></div>
+	
+
+</form>
+<script type="text/javascript" src="login_files/formoid1/formoid-default.js"></script>
+
+<p class="frmd"><a href="http://formoid.com/">Web 2 0 Forms Formoid.com 1.9</a></p>
+<!-- Stop Formoid form-->
+
+
+
+</body>
+</html>
