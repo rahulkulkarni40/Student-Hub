@@ -40,7 +40,7 @@ If the entire process of XAMPP installation went correctly, then the control pan
 ### Modules:
 
 # Home page of the Application
-![Home Page](Images/ansreply.png)
+![Home Page](Images/login.png)
 
 # 1. Login:-
 It is the login session for the administrator student
@@ -54,26 +54,42 @@ Faculty Login Page:
 Admin Login Page:
 ![Admin Login](Images/flogin.png)
 
-2. Student details:-
+# 2. Student details:-
 It is used to view student details from database.
-3. Question Bank:-
+Adding students :
+![Add](Images/register.png)
+
+# 3. Question Bank:-
 It is used to store all the previous year question
 papers in it.
-4. Questioning:-
+Uploading files:
+![Upload](Images/uploadnotes.png)
+
+Downlaod Notes:
+![Notes Downloading](Images/download.png)
+# 4. Questioning:-
 Here students can ask question related to syllabus to the
 faculty. Here the student name will not be displayed
 one id number will be given to each question. The
 questions are sent to the specified subject faculty only no
 other faculty can answer it.
-# List of Questions asked by the students:
+List of Questions asked by the students:
 ![Image of Question Page](Images/anslist.png)
-# Answering the questions page
+Answering the questions page
 ![Image for Answering the Question](Images/ansreply.png)
-5. Faculty feedback:-
+
+Question asking page:
+![Ask Question](Images/question.png)
+# 5. Faculty feedback:-
 Here students give feedback of a particular faculty for eg.
 Is he/she regular to class, he/she teaches good or not
 etc.
-6. Additional features like calendar, events, IT fests, etc….
+Feed Back Page 
+![Giving feedBack](Images/feedback.png)
+
+# 6. Additional features like calendar, events, IT fests, etc….
+Calendar:
+![Calendar](Images/calendar.png)
 
 ## Author
 * **Rahul Kulkarni** - *Complete Project* - [Rahul Kulkarni](https://github.com/rahulkulkarni40)
