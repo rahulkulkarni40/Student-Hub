@@ -38,9 +38,21 @@ If the entire process of XAMPP installation went correctly, then the control pan
 
 
 ### Modules:
-1. Login:-
+
+# Home page of the Application
+![Home Page](Images/ansreply.png)
+
+# 1. Login:-
 It is the login session for the administrator student
 and exit.
+Student Login Page:
+![Student Login](Images/flogin.png)
+
+Faculty Login Page:
+![Faculty Login](Images/flogin.png)
+
+Admin Login Page:
+![Admin Login](Images/flogin.png)
 
 2. Student details:-
 It is used to view student details from database.
