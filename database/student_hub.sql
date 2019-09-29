@@ -43,9 +43,6 @@ CREATE TABLE IF NOT EXISTS `admin` (
 
 INSERT INTO `admin` (`Id`, `Fullname`, `Address`, `Contact`, `Email`, `Username`, `Password`) VALUES
 ('102', 'abhi', 'abcd', '123', '123@g.com', 'xyz', '123'),
-('104', 'Rahul', 'Tilakwadi\r\n104', '09036869578', 'rahul.kulkarni1994@gmail.com', 'rahul', 'rahul040'),
-('admin02', 'admin', 'jkhhuh', '1234567890', 'admin@admin.com', '123', 'admin02'),
-('admin10', 'rahul', 'bangalore', '1234567890', 'rahul.kulkarni1994@gmail.com', '123', 'admin10'),
 ('xyzz', 'aaaa', 'sgfiusgiufugisg', '1234567890', 'a@a.c', '123', 'admin03');
 
 -- --------------------------------------------------------
@@ -70,9 +67,6 @@ CREATE TABLE IF NOT EXISTS `faculty` (
 --
 
 INSERT INTO `faculty` (`Faculty_Id`, `Faculty_Name`, `Lastname`, `Password`, `Department`, `Contact`, `Email`) VALUES
-('007', 'Shreyas', '', '', 'MUFC', '8197154816', 'shreyastatachar@gmail.com'),
-('011', 'Rahul', '', 'rahul', 'mca', '9036869578', 'rahul.kulkarni1994@gmail.com'),
-('dsatm01', 'rahul', '', '123', 'mca', '7894561230', 'rahul.kulkarni1994@gmail.com'),
 ('dsatm02', 'Sateesh', '', 'sateesh', 'mca', '1234567890', 'sateesh@dsatm.co.in');
 
 -- --------------------------------------------------------
@@ -171,11 +165,8 @@ CREATE TABLE IF NOT EXISTS `student` (
 --
 
 INSERT INTO `student` (`Regno`, `Fullname`, `Fathers_Name`, `Lastname`, `Branch`, `Semester`, `Address`, `Contact`, `Email`, `Password`) VALUES
-('001', 'Shreyas', 'B', 'S', 'cs', 8, '44', '9845021477', 'shr@gmail.com', '123456'),
-('010', 'Wayne', 'Mark', 'Rooney', 'MUFC', 0, 'shreyas', '9845021477', 'waynerooney@gmail.com', 'mufc'),
-('1001', 'anthony', 'mark', 'martial', 'mca', 6, 'manchestr', '1234567890', 'shr@gmail.com', 'shreyas'),
-('1dt14mca27', 'rahul', 'r', 'kulkarni', 'mca', 3, 'bangalore', '7894561230', 'rahul.kulkarni1994@gmail.com', 'rahul'),
-('1dt14mca35', 'Shreyas', 'B', 'S', 'mca', 4, 'Bangalore', '1234567890', 'shreyastatachar@gmail.com', 'mufc');
+('1dt14mca27', 'rahul', 'r', 'kulkarni', 'mca', 3, 'bangalore', '7894561230', 'rahul@gmail.com', 'rahul'),
+('1dt14mca35', 'Shreyas', 'B', 'S', 'mca', 4, 'Bangalore', '1234567890', 'shreya@gmail.com', 'mufc');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
