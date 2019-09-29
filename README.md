@@ -60,6 +60,6 @@ etc.
 6. Additional features like calendar, events, IT fests, etc….
 
 ## Author
-* **Rahul Kulkarni  ** - **Complete Project ** [Rahul Kulkarni] (https://github.com/rahulkulkarni40)
+* **Rahul Kulkarni  ** - **Complete Project ** [Rahul Kulkarni](https://github.com/rahulkulkarni40)
 
 
