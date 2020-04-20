@@ -1,0 +1,40 @@
+<html>
+
+<body style="background-color:#ffff00">
+<link rel="stylesheet" href="fcreate_files/formoid1/formoid-default.css" type="text/css" />
+<script type="text/javascript" src="fcreate_files/formoid1/jquery.min.js"></script> 
+<form action = "Fcreate.php"class="formoid-default" style="background-color:#FFFFFF;font-size:14px;font-family:"Open Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;color:#666666;width:480px" title="My Formoid form" method="post"> 
+<div class="element-text" > 
+<h2 class="title">Create Account</h2></div> 
+<div class="element-input" > 
+<label class="title">Faculty Name</label> 
+<input type="text" name="fn" required value=""></div> 
+<div class="element-input" > 
+ <label class="title">Faculty Id</label> 
+ <input type="text" name="fid" required value=""></div> 
+ <div class="element-password" ><label class="title">Password</label><input type="password" name="password" value=""  id="pass1" required></div> 
+ <div class="element-password" > 
+ <label class="title">Confirm Password</label> 
+ <input type="password" name="password1" onkeyup="checkpass(); return false" id="pass2" value="" required/></div>
+ <span id="confirmMessage" class="confirmMessage"></span>
+ <div class="element-input" > 
+ <label class="title">Department</label> 
+ <input type="text" name="dep" required value=""></div> 
+ <div class="element-input" > 
+ <label class="title">Contact No</label> 
+ <input type="text" name="ph" required value=""></div> 
+ <div class="element-email" > 
+ <label class="title">Email</label> 
+ <input type="email" name="email" value="" required ></div> 
+ <div class="element-submit" > 
+ <input type="submit" value="Submit"/></div> 
+
+ </form> 
+ <script type="text/javascript" src="fcreate_files/formoid1/formoid-default.js"></script> 
+
+ <p class="frmd"><a href="http://formoid.com/">Web 2 0 Forms Formoid.com 1.9</a></p> 
+
+
+
+ </body> 
+ </html> 
