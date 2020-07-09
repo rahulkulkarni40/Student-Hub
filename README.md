@@ -93,6 +93,6 @@ Calendar:
 
 ## Author
 * **Rahul Kulkarni** - *Complete Project* - [Rahul Kulkarni](https://github.com/rahulkulkarni40)
-* **Shreyas S** -*UI Support ** - [shresrini](https://github.com/shresrini)
+* **Shreyas S** - *UI Support * - [shresrini](https://github.com/shresrini)
 
 
